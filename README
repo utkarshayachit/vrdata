@@ -1,0 +1,34 @@
+Relevant files in this folder:
+
+- ./vrpnConfig.pvvr 
+
+    VRPN configuration. Use "Load VR State" in VR panel to apply.
+
+- ./shuttle/shuttle.pvsm
+
+    Shuttle simulation. Animated. Open the ./shuttle/sslv/sslv.pvd
+    data file when prompted.  Shuttle should already be scaled and
+    centered.
+
+- ./motorBike/motorBike.pvsm
+
+    Full animated motorbike animation. Open the
+    ./motorBike/motorBike.foam data file when prompted.
+
+- ./motorBikeScaledStatic/motorBikeScaledStatic.pvsm
+
+    Scaled geometry-only representation of motorBike, not
+    animated. Open the
+    ./motorBikeScaledStatic/motorBikeScaledStatic.pvd file when
+    prompted.
+
+- ./ChesapeakeBay/ChesapeakeBayScaled.pvsm
+
+    Scaled geometry for ChesapeakeBay. Open the
+    ./ChesapeakeBay/ChesapeakeBayScaled.pvd file when prompted.
+
+- ./molecule/molecule.pvsm
+
+    BROKEN! For some reason, loading the state file doesn't work. Just
+    load the molecule (note that the geometry cannot be
+    scaled/transformed -- maybe because it's glyphed?)
