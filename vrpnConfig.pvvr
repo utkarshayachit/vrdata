@@ -6,6 +6,11 @@
       <Button id="2" name="b2"/>
       <Tracker id="0" name="head"/>
       <Tracker id="1" name="wand"/>
+      <TrackerTransform value="
+        1  0  0  0
+        0  0 -1  1.524
+        0  1  0  0
+        0  0  0  1"/>
     </VRPNConnection>
   </VRConnectionManager>
   <VRInteractorStyles>
